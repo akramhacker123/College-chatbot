@@ -1,0 +1,39 @@
+{
+  "entities": [
+    {
+      "responseKeyword": "courses",
+      "words": [
+        "computer science",
+        "biology",
+        "business management",
+        "psychology"
+      ]
+    },
+    {
+      "responseKeyword": "programs",
+      "words": [
+        "undergraduate",
+        "graduate",
+        "postgraduate",
+        "doctoral"
+      ]
+    },
+    {
+      "responseKeyword": "degrees",
+      "words": [
+        "bachelor's",
+        "master's",
+        "Ph.D."
+      ]
+    },
+    {
+      "responseKeyword": "syllabus",
+      "words": [
+        "computer science syllabus",
+        "biology syllabus",
+        "business management syllabus",
+        "psychology syllabus"
+      ]
+    }
+  ]
+}

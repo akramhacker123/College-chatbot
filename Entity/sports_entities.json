@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {
+      "responseKeyword": "sports",
+      "words": [
+        "football",
+        "basketball",
+        "volleyball",
+        "tennis"
+      ]
+    },
+    {
+      "responseKeyword": "athletics",
+      "words": [
+        "track and field",
+        "long jump",
+        "sprints",
+        "discus throw"
+      ]
+    },
+    {
+      "responseKeyword": "teams",
+      "words": [
+        "football team",
+        "basketball team",
+        "volleyball team",
+        "tennis team"
+      ]
+    },
+    {
+      "responseKeyword": "tournaments",
+      "words": [
+        "football tournament",
+        "basketball tournament",
+        "volleyball tournament",
+        "tennis tournament"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('form').on('submit', function(event){
+				event.preventDefault();
+				$.ajax({
+					url: "{{ url_for('process') }}",
+					method: "POST",
+					data: $(this).serialize(),
+					success: function(response){
+						$('#chat').append("<p><strong>You:</strong> " + response.question + "</p><p><strong>Bot:</strong> " + response.answer + "</p>");
+						$('#input').val('');
+					}
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Chat</h1>
+	<div id="chat"></div>
+	<form>
+		<input type="text" id="input" name="question">
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>

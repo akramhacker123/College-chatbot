@@ -1,0 +1,28 @@
+{
+  "responses": {
+    "courses": [
+      "We offer courses in computer science, biology, business management, and psychology."
+    ],
+    "programs": [
+      "We have undergraduate, graduate, postgraduate, and doctoral programs."
+    ],
+    "degrees": [
+      "We offer bachelor's, master's, and Ph.D. degrees."
+    ],
+    "syllabus": [
+      "Here are the syllabus details for the requested courses:\n- Computer Science: [syllabus link]\n- Biology: [syllabus link]\n- Business Management: [syllabus link]\n- Psychology: [syllabus link]"
+    ],
+    "sports": [
+      "Our sports facilities include football, basketball, volleyball, and tennis."
+    ],
+    "athletics": [
+      "We have a variety of athletic events such as track and field, long jump, sprints, and discus throw."
+    ],
+    "teams": [
+      "We have teams for football, basketball, volleyball, and tennis."
+    ],
+    "tournaments": [
+      "We organize tournaments for football, basketball, volleyball, and tennis."
+    ]
+  }
+}

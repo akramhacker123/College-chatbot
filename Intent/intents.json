@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "name": "Academics",
+      "keywords": [
+        "courses",
+        "programs",
+        "degrees",
+        "syllabus"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "sports",
+        "athletics",
+        "teams",
+        "tournaments"
+      ]
+    }
+  ]
+}
